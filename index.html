@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./usecases/utils.js"></script>
+  <script src="./usecases/factories.js"></script>
+  <script src="./usecases/randomize.js"></script>
+  <script src="./constants/index.js"></script>
+  <title>Sales Report</title>
+</head>
+
+<body>
+  <nav>
+    <div>
+      <h1>Jailton Cruz</h1>
+      <p>Test of Full-stack Developer</p>
+    </div>
+    <h1>All Tax Platform</h1>
+  </nav>
+  <main>
+
+    <header>
+      <label>
+        Categories
+        <select id="category-selector" name="category" onchange="onSelectChange(event)"></select>
+      </label>
+      <label>
+        Products
+        <select id="product-selector" name="product" onchange="onSelectChange(event)"></select>
+      </label>
+      <label>
+        Brands
+        <select id="brand-selector" name="brand" onchange="onSelectChange(event)">
+          <option value="">Select a Brand to filter</option>
+        </select>
+      </label>
+    </header>
+
+    <div class="divider"></div>
+
+    <div class="chart-container" style="position: relative; height:78vh; width:90vw">
+      <canvas id="chart"></canvas>
+    </div>
+  </main>
+
+</body>
+<script src="index.js"></script>
+
+</html>
