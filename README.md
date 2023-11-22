@@ -27,7 +27,7 @@ Results
 ```json
 [
     {
-        "id": 43607,  // generated randomly
+        "id": 43607,
         "name": "Electronics"
     },
     {
