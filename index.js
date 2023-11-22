@@ -77,7 +77,7 @@ function renderChart() {
 
   datasets.push({
     type: "line",
-    label: currentBrand ? `Total of ${currentBrand.name}` : "",
+    label: currentBrand ? `Total of ${currentBrand.name}` : "Total",
     data: Object.entries(salesByProduct).map((sale) => sale[1]),
     borderWidth: 1,
   });
