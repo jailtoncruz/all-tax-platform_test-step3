@@ -20,6 +20,8 @@ Open the [index.html](./index.html) with your browser.
 
 The repository is splited in some folders to organize functions and your reponsabilities, between constants, use cases (factories) and functions to randomize data.
 
+The project has some comments for using JSDocs, without Typescript using JSDocs helps avoid small typing errors and helps the IDE suggest more efficient auto completes, speeding up the development process.
+
 The data is generated dynamically with the factory functions which generate an object from an array of names, for exemple the following code:
 
 ```js
@@ -44,6 +46,8 @@ Results
     }
 ]
 ```
+
+I chose to use dynamic generation to avoid large static json files, keep it simple to use and add new categories, products and brands, and to make it easier to maintain.
 
 The object models were created wondering how it would work in an SQL database, An object to Category, Product, Brand and Sale.
 
