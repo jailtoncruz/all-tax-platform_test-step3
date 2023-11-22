@@ -74,7 +74,7 @@ interface Brand {
 }
 ```
 
-### Sale Object Model
+### Sale
 This object represents the total sales in one month.
 
 ```ts
