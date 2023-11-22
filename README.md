@@ -2,7 +2,11 @@
 
 This project is a repository with the solution to the technical test (Step 3 of 3) for the position of Full-stack developer
 
-## How to use?
+## Online Use (Available on Github Pages)
+
+Access <https://jailtoncruz.github.io/all-tax-platform_test-step3/>
+
+## How to use locally? (Self-hosted)
 
 You need to clone this repository
 
